@@ -9,7 +9,7 @@
 // Name contains an 'i': "will fall in love this week"
 
 let myName;
-myName = "Richard";
+myName = "Savannah";
 
 let lengthOfName = myName.length;
 
@@ -33,8 +33,12 @@ if (iVariable) {
 }
 
 let firstCharacter = myName[0];
-console.log("first letter is" + firstCharacter)
+console.log("The first letter is " + firstCharacter)
 
-if (firstCharacter === R) {
+if (firstCharacter === 'R') {
+    console.log("You will live to be old!")
+}
+
+if (firstCharacter === 'S') {
     console.log("You will be rich!")
 }
