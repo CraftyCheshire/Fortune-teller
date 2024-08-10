@@ -112,3 +112,6 @@ tellFortune(input2);
 tellFortune(input3);
 tellFortune(input4);
 tellFortune(input5);
+tellFortune("Alys");
+tellFortune("Erich");
+tellFortune("Brad Lee");
