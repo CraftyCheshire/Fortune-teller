@@ -33,32 +33,32 @@ function marryLate(firstName) {
 function marryWithinYear(firstName) {
     let nameLength = firstName.length;
     if(nameLength < 5) {
-        return true
+        return true;
     } else {
-        return false
+        return false;
     }
 }
 
 function lifetime(firstName) {
     let nameLength = firstName.length;
     if(nameLength === 5 || nameLength === 6 || nameLength === 7) {
-        return true
+        return true;
     } else {
-        return false
+        return false;
     }
 }
 
 function firstChar(firstName) {
     let r = firstName.startsWith("R");
     if(r) {
-        return true
+        return true;
     } else {
-        return false
+        return false;
     }
 }
 
 function nameContainsI(firstName) {
-    let y = firstName.includes("i")
+    let y = firstName.includes("i");
     if(y) {
         return true;
     } else {
