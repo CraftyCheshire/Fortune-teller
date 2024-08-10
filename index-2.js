@@ -82,21 +82,21 @@ function tellFortune(firstName) {
     if(y) {
         console.log(`${firstName}, you will marry within this year!`);
     } else {
-        console.log(`${firstName}, your marriage is further out than a year.`)
+        console.log(`${firstName}, your marriage is further out than a year.`);
     }
 
     if(lo) {
-        console.log(`${firstName}, you will encounter a once-in-a-lifetime opportunity!`)
+        console.log(`${firstName}, you will encounter a once-in-a-lifetime opportunity!`);
     }
 
     if(i) {
-        console.log(`${firstName}, you will fall in love this week!`)
+        console.log(`${firstName}, you will fall in love this week!`);
     } else {
-        console.log(`${firstName}, you will never find love. HAHA!`)
+        console.log(`${firstName}, you will never find love. HAHA!`);
     }
 
     if(r) {
-        console.log(`${firstName}, you will die extremely wealthy!`)
+        console.log(`${firstName}, you will die extremely wealthy!`);
     }
 }
 
